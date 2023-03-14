@@ -1,5 +1,9 @@
+import AuthForm from "@/components/Authform";
+
 const RegisterPage = () => {
-  return <div>Register</div>;
+  return <div>
+    <AuthForm mode="register" />
+  </div>;
 };
 
 export default RegisterPage;
